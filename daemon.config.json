@@ -18,5 +18,8 @@
     "network": {
         "name": "mainnet", // Connect to mainnet, testnet-clay, or dev-unstable
     },
-    "node": {}
+    "node": {},
+    "state-store": {
+        "mode": "fs"    
+    }
 }
