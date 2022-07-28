@@ -41,7 +41,7 @@ substitutions:
   _SERVICE_NAME: cermic-node
   _LABELS: gcb-trigger-id=0c9d2598-0eb4-11ed-861d-0242ac120002
   _TRIGGER_ID: 0c9d2598-0eb4-11ed-861d-0242ac120002
-  _ENTRYPOINT: npm install -g @ceramicnetwork/cli
+  _ENTRYPOINT: ceramic daemon
 tags:
   - gcp-cloud-build-deploy-cloud-run
   - gcp-cloud-build-deploy-cloud-run-managed
