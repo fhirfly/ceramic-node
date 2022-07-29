@@ -1,6 +1,6 @@
 {
     "anchor": {
-        "ethereum-rpc-url": "https://mainnet.infura.io/v3/d703552cf2df483d909a3e4484101cce" // Replace with an Ethereum RPC endpoint to avoid rate limiting
+        "ethereum-rpc-url": "https://mainnet.infura.io/v3/d703552cf2df483d909a3e4484101cce" 
     },
     "http-api": {
         "cors-allowed-origins": [
@@ -16,7 +16,7 @@
         "log-to-files": true
     },
     "network": {
-        "name": "mainnet", // Connect to mainnet, testnet-clay, or dev-unstable
+        "name": "mainnet", 
     },
     "node": {},
     "state-store": {
