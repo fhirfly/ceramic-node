@@ -1,6 +1,6 @@
 {
     "anchor": {
-        "ethereum-rpc-url": "https://eg_infura_endpoint" // Replace with an Ethereum RPC endpoint to avoid rate limiting
+        "ethereum-rpc-url": "https://mainnet.infura.io/v3/d703552cf2df483d909a3e4484101cce" // Replace with an Ethereum RPC endpoint to avoid rate limiting
     },
     "http-api": {
         "cors-allowed-origins": [
@@ -9,7 +9,7 @@
     },
     "ipfs": {
         "mode": "remote",
-        "host": "http://ipfs_ip_address:5001"
+        "host": "http://ipfs.fhirfly.io:5001"
     },
     "logger": {
         "log-level": 2, // 0 is most verbose
